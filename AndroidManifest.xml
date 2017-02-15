@@ -142,8 +142,10 @@
 
         <activity android:name="CalendarSettingsActivity" android:label="@string/preferences_title"
             android:theme="@android:style/Theme.Material.Light.DarkActionBar"/>
-        <activity android:name="com.android.calendar.RequestPermissionsActivity" />
-        <activity android:name="com.android.calendar.RequestPermissionsActivityBase" />
+        <activity android:name="com.android.calendar.RequestPermissionsActivity" >
+        </activity>
+        <activity android:name="com.android.calendar.RequestPermissionsActivityBase" >
+        </activity>
 
         <!-- Declarations for search -->
         <!-- Make all activities a searchable context -->
